@@ -41,54 +41,43 @@ class MyApp extends StatelessWidget {
               ),
               Card(
                 color: Colors.white,
-                margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
-                child: Padding(
-                  padding: const EdgeInsets.all(10.0),
-                  child: Row(
-                    children: [
-                      Icon(
-                        Icons.phone,
-                        color: Colors.teal,
-                      ),
-                      SizedBox(
-                        width: 10.0,
-                      ),
-                      Text(
-                        "+91-9164959595",
-                        style: TextStyle(
-                            fontSize: 20.0,
-                            color: Colors.teal.shade900,
-                            letterSpacing: 1.5,
-                            //fontWeight: FontWeight.bold,
-                            fontFamily: 'SourceSansPro'),
-                      )
-                    ],
+                margin: EdgeInsets.symmetric(vertical: 5.0, horizontal: 25.0),
+                child: ListTile(
+                  leading: Padding(
+                    padding: const EdgeInsets.all(5.0),
+                    child: Icon(
+                      Icons.phone,
+                      color: Colors.teal,
+                    ),
+                  ),
+                  title: Text(
+                    "+91-9164959595",
+                    style: TextStyle(
+                        fontSize: 20.0,
+                        color: Colors.teal.shade900,
+                        letterSpacing: 1.5,
+                        fontFamily: 'SourceSansPro'),
                   ),
                 ),
               ),
               Card(
                 color: Colors.white,
                 margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
-                child: Padding(
-                  padding: const EdgeInsets.all(10.0),
-                  child: Row(
-                    children: [
-                      Icon(
-                        Icons.email,
-                        color: Colors.teal,
-                      ),
-                      SizedBox(
-                        width: 10.0,
-                      ),
-                      Text(
-                        "sumukh.aithal@yahoomail.co.in",
-                        style: TextStyle(
-                            fontSize: 20.0,
-                            color: Colors.teal.shade900,
-                            //fontWeight: FontWeight.bold,
-                            fontFamily: 'SourceSansPro'),
-                      )
-                    ],
+                child: ListTile(
+                  leading: Padding(
+                    padding: const EdgeInsets.all(5.0),
+                    child: Icon(
+                      Icons.email,
+                      color: Colors.teal,
+                    ),
+                  ),
+                  title: Text(
+                    "sumukh.aithal@yahoomail.co.in",
+                    style: TextStyle(
+                        fontSize: 20.0,
+                        color: Colors.teal.shade900,
+                        //fontWeight: FontWeight.bold,
+                        fontFamily: 'SourceSansPro'),
                   ),
                 ),
               )
