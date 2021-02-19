@@ -19,6 +19,7 @@ class MyApp extends StatelessWidget {
             children: [
               CircleAvatar(
                 radius: 50.0,
+                backgroundColor: Colors.teal[200],
                 backgroundImage: AssetImage('images/avatar.png'),
               ),
               Text(
@@ -40,7 +41,6 @@ class MyApp extends StatelessWidget {
                     fontFamily: 'SourceSansPro'),
               ),
               Card(
-                color: Colors.white,
                 margin: EdgeInsets.symmetric(vertical: 5.0, horizontal: 25.0),
                 child: ListTile(
                   leading: Padding(
@@ -61,7 +61,6 @@ class MyApp extends StatelessWidget {
                 ),
               ),
               Card(
-                color: Colors.white,
                 margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
                 child: ListTile(
                   leading: Padding(
